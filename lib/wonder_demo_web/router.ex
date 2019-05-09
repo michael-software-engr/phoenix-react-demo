@@ -17,6 +17,7 @@ defmodule WonderDemoWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/vanilla_js", PageController, :vanilla_js
   end
 
   # Other scopes may use custom stacks.

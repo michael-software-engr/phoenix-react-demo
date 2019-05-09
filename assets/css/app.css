@@ -20,3 +20,5 @@
 .phx-logo-custom span.second {
   color: #777;
 }
+
+@import "./vanilla_js.css";
