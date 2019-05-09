@@ -13,7 +13,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "deploy": "/bin/cp ./app.js ../../../priv/static/js/vanilla_js.js",
+    "deploy-js": "/bin/cp ./app.js ../../../priv/static/js/vanilla_js.js",
+    "deploy-css": "/bin/cp ./app.css ../../../assets/css/vanilla_js.css",
+    "deploy": "npm run deploy-js && npm run deploy-css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
