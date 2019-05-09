@@ -22,7 +22,9 @@ defmodule WonderDemoWeb.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", WonderDemoWeb do
-  #   pipe_through :api
-  # end
+  scope "/api", WonderDemoWeb do
+    pipe_through :api
+
+    resources "/todos", TodoController, except: [:new, :edit]
+  end
 end
