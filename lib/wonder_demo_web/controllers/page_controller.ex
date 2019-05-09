@@ -8,4 +8,8 @@ defmodule WonderDemoWeb.PageController do
   def vanilla_js(conn, _params) do
     render(conn, "vanilla_js.html")
   end
+
+  def minimal_e6(conn, _params) do
+    render(conn, "minimal_e6.html")
+  end
 end

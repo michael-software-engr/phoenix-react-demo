@@ -18,6 +18,7 @@ defmodule WonderDemoWeb.Router do
 
     get "/", PageController, :index
     get "/vanilla_js", PageController, :vanilla_js
+    get "/minimal_e6", PageController, :minimal_e6
   end
 
   # Other scopes may use custom stacks.
