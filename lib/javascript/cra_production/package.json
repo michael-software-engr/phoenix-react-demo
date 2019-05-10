@@ -16,7 +16,7 @@
     "redux": "^4.0.1"
   },
   "scripts": {
-    "deploy": "yarn build && rm -rf ../../../priv/static/cra_production/ && /bin/cp -r ./build ../../../priv/static/cra_production/",
+    "deploy": "yarn build && rm -rf ../../../assets/static/cra_production/ && /bin/cp -r ./build ../../../assets/static/cra_production/",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
