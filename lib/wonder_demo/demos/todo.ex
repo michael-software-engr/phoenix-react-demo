@@ -15,6 +15,6 @@ defmodule WonderDemo.Demos.Todo do
   def changeset(todo, attrs) do
     todo
     |> cast(attrs, [:title, :date_due, :date_done, :done])
-    |> validate_required([:title, :date_due, :date_done, :done])
+    |> validate_required([:title])
   end
 end
