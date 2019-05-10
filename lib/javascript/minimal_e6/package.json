@@ -6,9 +6,10 @@
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
-    "deploy-js": "/bin/cp ./dist/main.js ../../../priv/static/js/minimal_e6.js",
+    "deploy-prep": "mkdir -p ../../../assets/static/js",
+    "deploy-js": "/bin/cp ./dist/main.js ../../../assets/static/js/minimal_e6.js",
     "deploy-css": "/bin/cp ./src/index.css ../../../assets/css/minimal_e6.css",
-    "deploy": "npm run build && npm run deploy-js && npm run deploy-css",
+    "deploy": "npm run deploy-prep && npm run build && npm run deploy-js && npm run deploy-css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
