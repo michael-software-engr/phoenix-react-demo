@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cra_production/static/css/main.a45142af.chunk.css",
+    "main.js": "/cra_production/static/js/main.770a72ba.chunk.js",
+    "main.js.map": "/cra_production/static/js/main.770a72ba.chunk.js.map",
+    "runtime~main.js": "/cra_production/static/js/runtime~main.1d9454a1.js",
+    "runtime~main.js.map": "/cra_production/static/js/runtime~main.1d9454a1.js.map",
+    "static/js/2.ee6e2b8b.chunk.js": "/cra_production/static/js/2.ee6e2b8b.chunk.js",
+    "static/js/2.ee6e2b8b.chunk.js.map": "/cra_production/static/js/2.ee6e2b8b.chunk.js.map",
+    "index.html": "/cra_production/index.html",
+    "precache-manifest.838e95678995d5b5f4c26d49745946aa.js": "/cra_production/precache-manifest.838e95678995d5b5f4c26d49745946aa.js",
+    "service-worker.js": "/cra_production/service-worker.js",
+    "static/css/main.a45142af.chunk.css.map": "/cra_production/static/css/main.a45142af.chunk.css.map"
+  }
+}
