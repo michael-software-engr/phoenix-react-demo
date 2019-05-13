@@ -10,13 +10,16 @@
     <h2>React Pages</h2>
     <ul>
       <li>
-        <a href="/vanilla_js">Vanilla JS</a>
+        <a href="/coding_challenge/index.html">Coding Challenge</a>
+      </li>
+      <li>
+        <a href="/cra_production/index.html">C.R.A. Production/Redux</a>
       </li>
       <li>
         <a href="/minimal_e6">Minimal E6</a>
       </li>
       <li>
-        <a href="/cra_production/index.html">C.R.A. Production/Redux</a>
+        <a href="/vanilla_js">Vanilla JS</a>
       </li>
     </ul>
   </article>
