@@ -11,15 +11,31 @@
     <ul>
       <li>
         <a href="/coding_challenge/index.html">Coding Challenge</a>
+        -
+        <a href="https://github.com/michael-software-engr/wonder-school-code-challenge">
+          Repo
+        </a>
       </li>
       <li>
         <a href="/cra_production/index.html">C.R.A. Production/Redux</a>
+        -
+        <a href="https://github.com/michael-software-engr/phoenix-react-demo/tree/master/lib/javascript/cra_production">
+          Repo
+        </a>
       </li>
       <li>
         <a href="/minimal_e6">Minimal E6</a>
+        -
+        <a href="https://github.com/michael-software-engr/phoenix-react-demo/tree/master/lib/javascript/minimal_e6">
+          Repo
+        </a>
       </li>
       <li>
         <a href="/vanilla_js">Vanilla JS</a>
+        -
+        <a href="https://github.com/michael-software-engr/phoenix-react-demo/tree/master/lib/javascript/vanilla_js">
+          Repo
+        </a>
       </li>
     </ul>
   </article>
