@@ -26,5 +26,7 @@ defmodule WonderDemoWeb.Router do
     pipe_through :api
 
     resources "/todos", TodoController, except: [:new, :edit]
+    resources "/task_groups", TaskGroupController, except: [:new, :edit]
+    resources "/tasks", TaskController, except: [:new, :edit]
   end
 end
