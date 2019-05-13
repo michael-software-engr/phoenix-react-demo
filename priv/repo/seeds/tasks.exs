@@ -36,19 +36,21 @@ tasks_by_name = TaskSeeder.data |> Enum.reduce(
   end
 )
 
-TaskSeeder.data |> Enum.each fn task ->
-  dependencies = task["dependencies"]
+TaskSeeder.data |> Enum.each(
+  fn task ->
+    dependencies = task["dependencies"]
 
-  if dependencies do
-    dependency_ids = Enum.map(
-      dependencies, fn dep_name ->
-        dep = tasks_by_name[dep_name]
-        dep.id
-      end
-    )
+    if dependencies do
+      dependency_ids = Enum.map(
+        dependencies, fn dep_name ->
+          dep = tasks_by_name[dep_name]
+          dep.id
+        end
+      )
 
-    record = tasks_by_name[task["task"]]
+      record = tasks_by_name[task["task"]]
 
-    Ecto.Changeset.change(record, dependency_ids: dependency_ids) |> Repo.update!
+      Ecto.Changeset.change(record, dependency_ids: dependency_ids) |> Repo.update!
+    end
   end
-end
+)
